@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
           new_hash[name] = {}       #update new hash w/ names as key   
         end
 
-        if !new_hash[name].has_key?(property)
+        if !new_hash[name].include?(property)
           new_hash[name][property] = []
         end
 
