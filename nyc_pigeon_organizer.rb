@@ -1,5 +1,8 @@
 def nyc_pigeon_organizer(data)
+
   new_hash = {}
+  #enum the data hash
+  
   data.each do |property, hash|
     hash.each do |attribute, array|
       array.each do |name|
